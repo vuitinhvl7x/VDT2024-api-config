@@ -6,10 +6,10 @@ replicaCount: 2
 
 image:
   registry: docker.io
-  repository: xuanhaj/users-app
+  repository: xuanhaj/api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "latest"
+  tag: "v1"
 
 imagePullSecrets: []
 nameOverride: ""
