@@ -9,7 +9,7 @@ image:
   repository: xuanhaj/api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: "v14"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -124,7 +124,7 @@ postgresql:
   image:
     registry: docker.io
     repository: postgres
-    tag: latest
+    tag: "v14"
   service:
     name: postgresql
     port: 5432
