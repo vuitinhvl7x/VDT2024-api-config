@@ -119,12 +119,12 @@ secrets:
     DB_HOST: ZGI=                  # "db" encoded in base64
     DB_PORT: NTQzMg==              # "5432" encoded in base64
 
-# postgresql:
-#   enabled: true
-#   image:
-#     registry: docker.io
-#     repository: postgres
-#     tag: "v14"
+postgresql:
+  enabled: true
+  image:
+    registry: docker.io
+    repository: postgres
+    tag: "v14"
   service:
     name: postgresql
     port: 5432
