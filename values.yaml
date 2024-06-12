@@ -2,14 +2,14 @@
 # This is a YAML-formatted file.
 # Declare variables to be passed into your templates.
 
-replicaCount: 3
+replicaCount: 9
 
 image:
   registry: docker.io
   repository: xuanhaj/api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v1"
+  tag: "v10"
 
 imagePullSecrets: []
 nameOverride: ""
