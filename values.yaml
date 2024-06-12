@@ -124,7 +124,7 @@ postgresql:
   image:
     registry: docker.io
     repository: postgres
-    tag: "v14"
+    tag: latest
   service:
     name: postgresql
     port: 5432
