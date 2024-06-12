@@ -9,7 +9,7 @@ image:
   repository: xuanhaj/api
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "v17"
+  tag: "v1"
 
 imagePullSecrets: []
 nameOverride: ""
