@@ -76,7 +76,7 @@ resources: {}
 
 livenessProbe:
   httpGet:
-    path: /v1/users
+    path: /api/students 
     port: 4000 
 readinessProbe:
   httpGet:
